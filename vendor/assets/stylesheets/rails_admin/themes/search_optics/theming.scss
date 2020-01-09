@@ -1,0 +1,90 @@
+@import "variables";
+
+#store-name {
+  color: $brand-primary;
+}
+
+.page-loader {
+  border: 3px solid #f3f3f3; /* Light grey */
+  border-top: 3px solid $brand-primary; /* Blue */
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: spin 0.5s linear infinite;
+}
+
+.fc-button-primary {
+  background-color: $brand-primary !important;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+a {
+  color: $brand-primary; 
+}
+
+a:hover, a:focus {
+  color: $brand-primary;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+  background-color: $brand-primary; 
+}
+
+.label-info {
+  background-color: $brand-info;
+}
+
+.btn-primary {
+  background-color: $brand-primary;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle {
+  background-color: $brand-primary;
+}
+
+.btn-primary.disabled, .btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary.disabled:active, .btn-primary.disabled.active, .btn-primary[disabled], .btn-primary[disabled]:hover, .btn-primary[disabled]:focus, .btn-primary[disabled]:active, .btn-primary[disabled].active, fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary:hover, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary.active {
+  background-color: $brand-primary;
+}
+
+.btn-primary .badge {
+  color: $brand-primary;
+}
+
+.btn-info {
+  background-color: $brand-info;
+}
+
+.btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active, .open > .btn-info.dropdown-toggle {
+  background-color: $brand-info;
+}
+
+.btn-info.disabled, .btn-info.disabled:hover, .btn-info.disabled:focus, .btn-info.disabled:active, .btn-info.disabled.active, .btn-info[disabled], .btn-info[disabled]:hover, .btn-info[disabled]:focus, .btn-info[disabled]:active, .btn-info[disabled].active, fieldset[disabled] .btn-info, fieldset[disabled] .btn-info:hover, fieldset[disabled] .btn-info:focus, fieldset[disabled] .btn-info:active, fieldset[disabled] .btn-info.active {
+  background-color: $brand-info;
+}
+
+.btn-info .badge {
+  color: $brand-info;
+}
+
+.label-info {
+  background-color: $brand-info;
+}
+
+.label-info[href]:hover, .label-info[href]:focus {
+  background-color: $brand-info;
+}
+
+.label-primary {
+  background-color: $brand-primary;
+}
+
+.label-primary[href]:hover, .label-primary[href]:focus {
+  background-color: $brand-primary;
+}
+
+
+
